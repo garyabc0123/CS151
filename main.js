@@ -13,6 +13,7 @@ function loadPage(str){
 
             break;
         case "game-button":
+            $("#main-div").append("<iframe src=\"game/index.html\"  width=\"100%\" height=\"100%\" style=\"overflow:hidden;height:100%;width:100%;border: 0px\" ></iframe>");
             break;
         case "youtube-button":
             break;
